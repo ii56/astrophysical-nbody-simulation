@@ -17,7 +17,7 @@ let G = parseFloat(gravSlider.value);
 let dt = parseFloat(dtSlider.value);
 let mass = parseFloat(massSlider.value);
 
-// Plummer softening length (astrophysical standard)
+// Plummer softening length
 const EPS = 5;
 
 massVal.textContent = mass;
