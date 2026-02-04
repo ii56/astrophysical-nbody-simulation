@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background: radial-gradient(circle at top, #0b1c2d, #020617);
+    color: #fff;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.controls {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 14px;
+    margin-bottom: 18px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+input, select, button {
+    margin-top: 6px;
+    padding: 6px;
+    border-radius: 6px;
+    border: none;
+}
+
+button {
+    background: #38bdf8;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #7dd3fc;
+}
+
+canvas {
+    background: #000;
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.8);
+}
